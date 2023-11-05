@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:app_infants/screens/splash_screen.dart';
 import 'package:app_infants/screens/product_list.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,13 @@ class MyApp extends StatelessWidget {
 }
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  HomeScreen({super.key}); // Remove 'const' from the constructor
+
+  final AudioPlayer audioPlayer = AudioPlayer(); // Create an instance of AudioPlayer
+
+  void playSound() async {
+    await audioPlayer.play('assets/sounds/sound1.mp3' as Source); // Replace 'assets/sound.mp3' with the path to your audio file
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -62,14 +69,19 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.asset(
-              'assets/baby.png',
-              height: 200,
+            GestureDetector(
+              onTap: () {
+                playSound(); // Play the sound when the image is tapped
+              },
+              child: Image.asset(
+                'assets/baby.png',
+                height: 200,
+              ),
             ),
             const SizedBox(height: 16),
             const Padding(
               padding: EdgeInsets.all(16.0),
-              child: Center( // Center the paragraph text
+              child: Center(
                 child: Text(
                   "Welcome to Borcelle's kids store, where you can shop your baby's product. Bringing comfort to infants...",
                   style: TextStyle(

@@ -10,9 +10,9 @@ dependencies:
     sdk: flutter
   cupertino_icons: 1.0.1  # Updated to a specific version
   flutter_lints: ^2.0.0
+  audioplayers: ^5.2.0
   flutter_native_splash: ^2.3.4
   flutter_launcher_icons: ^0.13.1
-
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
@@ -32,6 +32,7 @@ flutter:
 
   # Specify your image assets here
   assets:
+    - assets/sounds/sound1.mp3
     - assets/baby.png
     - assets/2Pcs_Cartoon_Curtain_Buckle_Tie_back.jpg
     - assets/3_in_1_Baby_Stroller_and_Troller_Set.webp
