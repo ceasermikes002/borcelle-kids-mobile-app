@@ -66,8 +66,33 @@ class ProductDetailsScreen extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.pink, // Set the bottom app bar color to pink
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            IconButton(
+              icon: Icon(Icons.shopping_cart),
+              onPressed: () {
+                // Navigate to cart screen
+              },
+            ),
+            IconButton(
+              icon: Icon(Icons.favorite),
+              onPressed: () {
+                // Add to favorites
+              },
+            ),
+            IconButton(
+              icon: Icon(Icons.person),
+              onPressed: () {
+                // Navigate to profile screen
+              },
+            ),
+          ],
+        ),
+      ),
     );
-
   }
 
   ListTile _buildListTile(String label, String value) {

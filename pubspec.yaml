@@ -11,6 +11,8 @@ dependencies:
   cupertino_icons: 1.0.1  # Updated to a specific version
   flutter_lints: ^2.0.0
   audioplayers: ^5.2.0
+  flutter_svg: ^2.0.9
+  flutter_gradient_colors: ^2.1.1
   flutter_native_splash: ^2.3.4
   flutter_launcher_icons: ^0.13.1
 flutter_launcher_icons:
