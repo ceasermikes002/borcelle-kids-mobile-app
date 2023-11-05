@@ -1,0 +1,190 @@
+name: app_infants
+description: A new Flutter project
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.1  # Updated to a specific version
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.3.4
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_logo.png"
+  min_sdk_android: 21
+
+flutter:
+  fonts:
+    - family: MarkoOne
+      fonts:
+        - asset: assets/fonts/MarkoOne-Regular.ttf
+    - family: PlaypenSans
+      fonts:
+        - asset: assets/fonts/PlaypenSans-SemiBold.ttf
+
+  uses-material-design: true
+
+  # Specify your image assets here
+  assets:
+    - assets/baby.png
+    - assets/2Pcs_Cartoon_Curtain_Buckle_Tie_back.jpg
+    - assets/3_in_1_Baby_Stroller_and_Troller_Set.webp
+    - assets/5_in_1_Unique_Baby_body_Suits.webp
+    - assets/5Pcs_Baby_weaning_Spoons.jpg
+    - assets/98-degree-digital-bottle-warmer.jpg
+    - assets/100_cotton_toddler_bedding_set.webp
+    - assets/Adjustable_Nursing_pillow.webp
+    #    -
+    - assets/Angelcare_Happy_SealBath_Thermometer.jpeg
+    - assets/anging_swing_dor_toddlers.jpg
+    - assets/Animal_Soft_Building_Blocks.webp
+    - assets/Anti_kick_newborn_Swaddle_Blanket.jpg
+    - assets/app_logo.png
+    - assets/asda_little_angels_baby_lotion.jpg
+    - assets/Austrailian_Native_Animal_Wall_Decal_Set.jpeg
+    - assets/Automatic_Electric_Breast_pumps.jpeg
+    - assets/Babies_Nursing_Pillows.jpeg
+    - assets/Baby's_Year.jpg
+    - assets/baby.png
+    - assets/bath_thermometer.jpg
+    - assets/Baby_bottle_Drying_rack.jpeg
+    - assets/Baby_brush_and_comb_set.jpeg
+    - assets/Baby_Dog_print_pyjama_set.webp
+    - assets/Baby_Einstein_Discovery_Play_Development_Gift_Set.jpg
+    - assets/Baby_Feeding_Plate_set.webp
+    - assets/Baby_Girl_Swimwear.jpg
+    - assets/Baby_Girls_Tights.jpg
+    - assets/Baby_Handprint_Kit.jpg
+    - assets/Baby_Lamb_Stuffed_Animal.jpeg
+    - assets/Baby_Nasal_Aspirator_with_3_level_suction_and_music.jpeg
+    - assets/Baby_Nursing_Cover_and_Nursing_Poncho.jpg
+    - assets/Baby_sensory_toys_gift_box.png
+#    - NEW START
+    - assets/Baby_Shoulder_Carrier_Baby_Hiking_Backpack_Carrier_with_Rain_Cover.jpeg
+    - assets/Baby_Toddler_Snack_Catcher_Double_Handle.jpeg
+    - assets/Baby_Milk.jpg
+    - assets/Baby_Wrap_Carrier_and_Ring_Sling.jpeg
+    - assets/background.jpg
+    - assets/Backseat_Baby_Mirror_for_Rear-Facing_Child.jpeg
+    - assets/Bamboo_Toodler_Bowls.jpeg
+    - assets/Bany_chubby_Super_Soft_Cat_Soft_Toy_Big_Eyes_Doll.jpeg
+    - assets/Baybee_Baby_Rocker_and_Bouncer_with_Soothing_Vibrations.webp
+    - assets/Baybee_Stainless_Steel_Baby_Spoon_set.jpeg
+    - assets/beachfront-baby-water-ring-sling-white-wavewater-carrier.jpg
+    - assets/Beco_Soleil_Soft_Structured_Baby_Carrier.jpeg
+    - assets/blue-charms-organic-baby-bibs-set-of-3.jpg
+    - assets/BOBBY-Automated-Baby-Bouncer-For-Modern-Parents.webp
+    - assets/Bright_Starts_Comfy_Baby_Bouncer_Soothing_Vibration_Infant_Seat.jpg
+    - assets/Carters_cotton_sateen_fitted_crib_sheets.jpeg
+    - assets/Casual_Wear_Set_Of_24_Piecies_Cute_Baby_Sunglasses.webp
+    - assets/Cool_touch_Waterproof_Mattresas_and_Pillow.jpeg
+    - assets/copper-pearl-grace-change-pad-cover.jpg
+    - assets/Cot_Musical_Mobile.jpeg
+    - assets/Cotton_Newborn_Bany_Hats_Socks_And_Mittensset.webp
+    - assets/Cute_Bear_Night_Light_for_kids.webp
+    - assets/Cute_Wall_Clock_Non_Ticking_Living_Room_Decor.jpeg
+    - assets/Daiper_changing_pads.jpg
+    - assets/Diaper_Rash_Cream.jpg
+    - assets/Daipers_caddies.jpg
+    - assets/Daipers_fasteners.webp
+    - assets/default-img.jpg
+    - assets/Deluxe_Portable_Baby_Swing.jpeg
+    - assets/Deuter_Kid_Comfort_baby_carrier_for_hiking.jpg
+    - assets/diaper.jpg
+    - assets/Double_Ends_Feeding_Bottle_Brush.webp
+    - assets/Double_Wearable_Hands-Free_Breast_Pump.webp
+    - assets/Dove_Baby_Head_To_Toe_Body_Wash.jpg
+    - assets/Dowell_Baby_Bottle_Sterillizer.jpeg
+    - assets/Bottle_Sterilizers.jpg
+    - assets/Dr.Brown's_Infant_to_toddler_Training_Toothbrush_set.jpeg
+    - assets/Duo_Newborn_Baby_Bottle_Gift_Set.jpg
+    - assets/Electric_Baby_Food_Milk_Bottle_Warmer.jpeg
+    - assets/Electric_Baby_Nail_trimmer.jpeg
+    - assets/Engraved_Wooden_Keepsake_Box.jpg
+    - assets/Ergonomic_baby_carrier_with_hip_seat.webp
+    - assets/Evenflo_2_in_1_Baby_Bottle_Brush_With_Nipple_Brush.jpeg
+    - assets/Express_Electric_Steam_Sterilizer.webp
+    - assets/fleece_Warm_Cotton_Baby_Winter_Coat.jpeg
+    - assets/Foldable_Baby_BatHtub_With_Thermometer_And_Bath_Cushion.webp
+    - assets/Generic_Coral_FleeceSuper_Soft_Baby_Bath_Towel.jpeg
+    - assets/Generic_DividedPlate_For_Kids.jpeg
+    - assets/Generic_Electric_Baby_Bouncer_Seat_Pad.jpg
+    - assets/Generic_Marble_Run_Building_Blocks.jpeg
+    - assets/Generic_Outdoor_Picnic_Hiking.jpeg
+    - assets/Portable_Insulated_Baby_bottle_Bag.jpg
+    - assets/Generic_spelling_game_Toy.jpg
+    - assets/Baby_Bed.jpg
+    - assets/Giraffe_shaped_Wicker_Basket.jpeg
+    - assets/Girl_Boss_Happy_Sippy_Cup.png
+    - assets/goodnight-moon_3_piece_Celestial_Nusery_Baby_Crib_Bedding_Set.webp
+    - assets/Graco_Glider_Elite_2_in_1_Gliding_Swing.jpg
+    - assets/Growth_Chart_Ruler_Decal_Kit.jpg
+    - assets/high_tray_cover.jpeg
+    - assets/high_chair_tray_cover.jpg
+    - assets/Jam_Session_Jummping_Activity_Center.jpeg
+    - assets/Johnson's_Baby_Lotion.jpg
+    - assets/Johnson's_Baby_no_more_Tangles_Detagling_Spray.jpeg
+    - assets/Johnson's_Baby_Shampoo_Wash_with_Gentle_Tear.jpeg
+    - assets/Lansinoh_Disposable_Nursing_Pads.jpeg
+    - assets/Lansinoh_Nipple_Cream.jpg
+    - assets/Liodux_baby_swings_for_infants.jpg
+    - assets/Little's_Junior_Rings_For_Babies.jpeg
+    - assets/logo.png
+    - assets/Longrich_2_in_1_Baby_Shampoo_and_Baby_Wash.jpg
+    - assets/luxury-baby-musical-playmat-safari-play-gym.webp
+    - assets/LX_Swing_with_Portable_Bouncer.jpeg
+    - assets/Medela_Breast_Milk_Storage_Bags.jpg
+    - assets/Mei_Tai_Baby_Carrier.jpeg
+    - assets/Multicolor_Water_Failled_Toy_Teethers.webp
+    - assets/Multicolored_Baby_Socks_(Pack_of_four).jpg
+    - assets/Munchkin_Formula_Dispenser_Combo_Pack.jpeg
+    - assets/Munchkin_Spotless_Silicone_Toddler_Placemats.webp
+    - assets/Munchkin_ToddlerFork_and_Spoon_Set.jpeg
+    - assets/Musical_mobile.jpg
+    - assets/New_born_baby_bath_support.jpg
+    - assets/New_Warm_Heavy_Baby_Romper.jpeg
+    - assets/Nuby_3_pack_baby_Washclothes.jpeg
+    - assets/Nursery_Decor_Wall_Shelves.jpg
+    - assets/Nusery_Wall_Art_Print_Set.jpg
+    - assets/Organic_Cotton_Bunny_Baby_Hat.jpeg
+    - assets/Organic_Natural_Oatmeal_Heirloom_Baby_Blanket.jpeg
+    - assets/pails.jpeg
+    - assets/Pineapple_Baby_sun_hat.webp
+    - assets/Pink_Elephant_Baby_Crib_Bedding_Set.jpeg
+    - assets/Plastic_Baby_Rattle.webp
+    - assets/POrtable_Playpen_With_Carrying_Case_For_Infants_And_Babies.webp
+    - assets/Qilay_Wooden_Baby.jpeg
+    - assets/Rattles.jpg
+    - assets/Richgv_Soft_Cloth_Baby_Book.jpg
+    - assets/Roud_Electric_Baby_Nail_Trimmer.jpeg
+    - assets/Safari_Animal_Nusery_Curtains.webp
+    - assets/Safari_Animals_Personalised_Baby_Milestone_Cards.webp
+    - assets/Set-of-3-Absorbent-Cotton-Hooded-Baby-Towels-.webp
+    - assets/Nursing_Pads.jpg
+    - assets/Soft_Kids_Room_Nursery_Rug.jpg
+    - assets/Soft_newborn_baby_wrap_blankets.jpg
+    - assets/Soft_Sole_Cribe_Shoes.jpg
+    - assets/Soft_Tip_Baby_Feeding_Spoons.jpeg
+    - assets/Solly_Baby_Wrap_Carrier.jpeg
+    - assets/splash_screen_logo.png
+    - assets/Stoie's_Kids_Musical_Instruments_Set.jpeg
+    - assets/Sunba_Youth_Baby_Beach_Tent.jpeg
+    - assets/Suveno_Baby_Hipseat_carrier.jpg
+    - assets/Swaddle_Blanket,_Adjustable_Infant_Baby_Wrap.jpeg
+    - assets/swim_daipers.jpeg
+    - assets/The_weego_twin_baby_carrier.webp
+    - assets/toy.jpg
+    - assets/Ultra_Quiet_Cordless_Electric_Hair_Trimmer.jpg
+    - assets/user_profile_image.jpg
+    - assets/White_cotton_sleeve_onesie.jpeg
+    - assets/Wind_proof_cover.webp
+    - assets/Wooden_Baby_Teth_Fairy_Holder.jpeg
+    - assets/Wooden_Shape_Sorting_Baby_Toys.webp
+    - assets/Woodland_Animals_Baby_Activity_Gym_Play_mat.jpeg
+
