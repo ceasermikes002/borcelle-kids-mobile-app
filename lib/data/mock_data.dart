@@ -1695,323 +1695,323 @@ class MockData {
         }
       ]
     },
-    {
-      "category": "Nursing and Feeding Accessories",
-      "products": [
-        {
-          "name": "Nursing Pillow",
-          "description": "Description of Nursing Pillow",
-          "price": 19.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Newborn",
-          "liked": 0
-        },
-        {
-          "name": "Breast Pump",
-          "description": "Description of Breast Pump",
-          "price": 49.99,
-          "available": true,
-          "gender": "Female",
-          "size": ["Medium", "Large"],
-          "age_group": "Postpartum",
-          "liked": 0
-        },
-        {
-          "name": "Nursing Cover",
-          "description": "Description of Nursing Cover",
-          "price": 12.99,
-          "available": true,
-          "gender": "Female",
-          "size": ["One Size"],
-          "age_group": "Newborn",
-          "liked": 0
-        },
-        {
-          "name": "Nipple Cream",
-          "description": "Description of Nipple Cream",
-          "price": 5.99,
-          "available": true,
-          "gender": "Female",
-          "size": ["One Size"],
-          "age_group": "Newborn",
-          "liked": 0
-        },
-        {
-          "name": "Milk Storage Bags",
-          "description": "Description of Milk Storage Bags",
-          "price": 7.99,
-          "available": true,
-          "gender": "Female",
-          "size": ["One Size"],
-          "age_group": "Newborn",
-          "liked": 0
-        },
-        {
-          "name": "Baby Bottle Warmer",
-          "description": "Description of Baby Bottle Warmer",
-          "price": 24.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Bottle Sterilizer",
-          "description": "Description of Bottle Sterilizer",
-          "price": 29.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Bottle Brushes",
-          "description": "Description of Bottle Brushes",
-          "price": 4.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Formula Dispenser",
-          "description": "Description of Formula Dispenser",
-          "price": 6.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Newborn",
-          "liked": 0
-        },
-        {
-          "name": "Nursing Pads",
-          "description": "Description of Nursing Pads",
-          "price": 2.99,
-          "available": true,
-          "gender": "Female",
-          "size": ["One Size"],
-          "age_group": "Postpartum",
-          "liked": 0
-        }
-      ]
-    },
+    // {
+    //   "category": "Nursing and Feeding Accessories",
+    //   "products": [
+    //     {
+    //       "name": "Nursing Pillow",
+    //       "description": "Description of Nursing Pillow",
+    //       "price": 19.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Newborn",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Breast Pump",
+    //       "description": "Description of Breast Pump",
+    //       "price": 49.99,
+    //       "available": true,
+    //       "gender": "Female",
+    //       "size": ["Medium", "Large"],
+    //       "age_group": "Postpartum",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Nursing Cover",
+    //       "description": "Description of Nursing Cover",
+    //       "price": 12.99,
+    //       "available": true,
+    //       "gender": "Female",
+    //       "size": ["One Size"],
+    //       "age_group": "Newborn",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Nipple Cream",
+    //       "description": "Description of Nipple Cream",
+    //       "price": 5.99,
+    //       "available": true,
+    //       "gender": "Female",
+    //       "size": ["One Size"],
+    //       "age_group": "Newborn",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Milk Storage Bags",
+    //       "description": "Description of Milk Storage Bags",
+    //       "price": 7.99,
+    //       "available": true,
+    //       "gender": "Female",
+    //       "size": ["One Size"],
+    //       "age_group": "Newborn",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Bottle Warmer",
+    //       "description": "Description of Baby Bottle Warmer",
+    //       "price": 24.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Bottle Sterilizer",
+    //       "description": "Description of Bottle Sterilizer",
+    //       "price": 29.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Bottle Brushes",
+    //       "description": "Description of Bottle Brushes",
+    //       "price": 4.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Formula Dispenser",
+    //       "description": "Description of Formula Dispenser",
+    //       "price": 6.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Newborn",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Nursing Pads",
+    //       "description": "Description of Nursing Pads",
+    //       "price": 2.99,
+    //       "available": true,
+    //       "gender": "Female",
+    //       "size": ["One Size"],
+    //       "age_group": "Postpartum",
+    //       "liked": 0
+    //     }
+    //   ]
+    // },
 
-    {
-      "category": "Baby Keepsakes",
-      "products": [
-        {
-          "name": "Baby's First Year Memory Book",
-          "description": "Description of Baby's First Year Memory Book",
-          "price": 19.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Handprint and Footprint Kit",
-          "description": "Description of Handprint and Footprint Kit",
-          "price": 14.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Personalized Baby Photo Frame",
-          "description": "Description of Personalized Baby Photo Frame",
-          "price": 12.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Memory Box",
-          "description": "Description of Baby Memory Box",
-          "price": 24.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Custom Name Blanket",
-          "description": "Description of Custom Name Blanket",
-          "price": 29.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Tooth Fairy Box",
-          "description": "Description of Baby Tooth Fairy Box",
-          "price": 9.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Hand and Footprint Ornament Kit",
-          "description": "Description of Baby Hand and Footprint Ornament Kit",
-          "price": 7.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Growth Chart Ruler",
-          "description": "Description of Growth Chart Ruler",
-          "price": 17.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Time Capsule for Baby",
-          "description": "Description of Time Capsule for Baby",
-          "price": 15.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Milestone Cards",
-          "description": "Description of Baby Milestone Cards",
-          "price": 11.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        }
-      ]
-    },
+    // {
+    //   "category": "Baby Keepsakes",
+    //   "products": [
+    //     {
+    //       "name": "Baby's First Year Memory Book",
+    //       "description": "Description of Baby's First Year Memory Book",
+    //       "price": 19.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Handprint and Footprint Kit",
+    //       "description": "Description of Handprint and Footprint Kit",
+    //       "price": 14.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Personalized Baby Photo Frame",
+    //       "description": "Description of Personalized Baby Photo Frame",
+    //       "price": 12.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Memory Box",
+    //       "description": "Description of Baby Memory Box",
+    //       "price": 24.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Custom Name Blanket",
+    //       "description": "Description of Custom Name Blanket",
+    //       "price": 29.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Tooth Fairy Box",
+    //       "description": "Description of Baby Tooth Fairy Box",
+    //       "price": 9.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Hand and Footprint Ornament Kit",
+    //       "description": "Description of Baby Hand and Footprint Ornament Kit",
+    //       "price": 7.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Growth Chart Ruler",
+    //       "description": "Description of Growth Chart Ruler",
+    //       "price": 17.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Time Capsule for Baby",
+    //       "description": "Description of Time Capsule for Baby",
+    //       "price": 15.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Milestone Cards",
+    //       "description": "Description of Baby Milestone Cards",
+    //       "price": 11.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     }
+    //   ]
+    // },
     // Add other categories and their respective products here...
-    {
-      "category": "Baby Room Decor",
-      "products": [
-        {
-          "name": "Nursery Wall Decals",
-          "description": "Description of Nursery Wall Decals",
-          "price": 14.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Mobile",
-          "description": "Description of Baby Mobile",
-          "price": 19.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Night Light",
-          "description": "Description of Baby Night Light",
-          "price": 8.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Nursery Wall Art Prints",
-          "description": "Description of Nursery Wall Art Prints",
-          "price": 17.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Crib Bedding Set",
-          "description": "Description of Crib Bedding Set",
-          "price": 29.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Wall Shelves",
-          "description": "Description of Baby Wall Shelves",
-          "price": 12.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Nursery Rug",
-          "description": "Description of Nursery Rug",
-          "price": 24.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Curtain Tiebacks",
-          "description": "Description of Curtain Tiebacks",
-          "price": 6.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Room Wall Clock",
-          "description": "Description of Baby Room Wall Clock",
-          "price": 9.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        },
-        {
-          "name": "Baby Room Storage Baskets",
-          "description": "Description of Baby Room Storage Baskets",
-          "price": 11.99,
-          "available": true,
-          "gender": "Unisex",
-          "size": ["One Size"],
-          "age_group": "Infant",
-          "liked": 0
-        }
-      ]
-    },
+    // {
+    //   "category": "Baby Room Decor",
+    //   "products": [
+    //     {
+    //       "name": "Nursery Wall Decals",
+    //       "description": "Description of Nursery Wall Decals",
+    //       "price": 14.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Mobile",
+    //       "description": "Description of Baby Mobile",
+    //       "price": 19.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Night Light",
+    //       "description": "Description of Baby Night Light",
+    //       "price": 8.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Nursery Wall Art Prints",
+    //       "description": "Description of Nursery Wall Art Prints",
+    //       "price": 17.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Crib Bedding Set",
+    //       "description": "Description of Crib Bedding Set",
+    //       "price": 29.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Wall Shelves",
+    //       "description": "Description of Baby Wall Shelves",
+    //       "price": 12.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Nursery Rug",
+    //       "description": "Description of Nursery Rug",
+    //       "price": 24.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Curtain Tiebacks",
+    //       "description": "Description of Curtain Tiebacks",
+    //       "price": 6.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Room Wall Clock",
+    //       "description": "Description of Baby Room Wall Clock",
+    //       "price": 9.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     },
+    //     {
+    //       "name": "Baby Room Storage Baskets",
+    //       "description": "Description of Baby Room Storage Baskets",
+    //       "price": 11.99,
+    //       "available": true,
+    //       "gender": "Unisex",
+    //       "size": ["One Size"],
+    //       "age_group": "Infant",
+    //       "liked": 0
+    //     }
+    //   ]
+    // },
     {
       "category": "Outdoor Gear",
       "products": [
@@ -2117,6 +2117,7 @@ class MockData {
         }
       ]
     },
+    // TODO
     {
       "category": "Teething Relief",
       "products": [

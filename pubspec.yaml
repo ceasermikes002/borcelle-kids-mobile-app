@@ -72,6 +72,7 @@ flutter:
     - assets/Baby_Shoulder_Carrier_Baby_Hiking_Backpack_Carrier_with_Rain_Cover.jpeg
     - assets/Baby_Toddler_Snack_Catcher_Double_Handle.jpeg
     - assets/Baby_Milk.jpg
+    - assets/baby_mobile.webp
     - assets/Baby_Wrap_Carrier_and_Ring_Sling.jpeg
     - assets/background.jpg
     - assets/Backseat_Baby_Mirror_for_Rear-Facing_Child.jpeg
@@ -190,4 +191,19 @@ flutter:
     - assets/Wooden_Baby_Teth_Fairy_Holder.jpeg
     - assets/Wooden_Shape_Sorting_Baby_Toys.webp
     - assets/Woodland_Animals_Baby_Activity_Gym_Play_mat.jpeg
+#    -
+    - assets/active.jpg
+    - assets/audio_baby_monitor.jpg
+    - assets/baby_breathing_monitor.png
+    - assets/baby_monitor_with_temperature.jpg
+    - assets/Baby-Water-Play-Mat-Main.jpg
+    - assets/kisspng-ks-kids-love-circle-baby-activity-centre-child-in-kampx6-s-kids-5be26c3f83f654.5921889515415655035405.png
+    - assets/long range monitor.jpg
+    - assets/night vision baby camera.jpg
+    - assets/pngwing.com.png
+    - assets/sensory map.jpg
+    - assets/soft foam play tiles.jpg
+    - assets/video baby monitor.jpg
+    - assets/digital_audio_baby_monitor.jpg
+    - assets/wifi baby monitor.png
 

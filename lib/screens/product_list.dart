@@ -444,12 +444,13 @@ AssetImage getCategoryImage(String productName) {
     "Teething Rings with Various Textures": "assets/goodnight-moon_3_piece_Celestial_Nusery_Baby_Crib_Bedding_Set.webp",
     "Orthodontic Pacifiers": "assets/Graco_Glider_Elite_2_in_1_Gliding_Swing.jpg",
     "Teething Mitten": "assets/Growth_Chart_Ruler_Decal_Kit.jpg",
-    "Natural Rubber Teether": "assets/high_tray_cover.jpg",
-    "Pacifier Clips": "assets/Jam_Session_Jummping_Activity_Center.jpg",
+    "Natural Rubber Teether": "assets/high_tray_cover.jpeg",
+    "Pacifier Clips": "assets/Jam_Session_Jummping_Activity_Center.jpeg",
     "Fruit Teethers": "assets/Johnson's_Baby_Lotion.jpg",
-    "Teethers with Cooling Gel": "assets/Johnson's_Baby_no_more_Tangles_Detagling_Spray.jpg",
-    "Pacifier Case Holder": "assets/Johnson's_Baby_Shampoo_Wash_with_Gentle_Tear.jpg",
-    "Animal-shaped Teething Toys": "assets/Lansinoh_Disposable_Nursing_Pads.jpg",
+    "Teethers with Cooling Gel": "assets/Johnson's_Baby_no_more_Tangles_Detagling_Spray.jpe"
+        "g",
+    "Pacifier Case Holder": "assets/Johnson's_Baby_Shampoo_Wash_with_Gentle_Tear.jpeg",
+    "Animal-shaped Teething Toys": "assets/Lansinoh_Disposable_Nursing_Pads.jpeg",
 
     // Images for Baby Books category
     "Board Books for Infants": "assets/Lansinoh_Nipple_Cream.jpg",
@@ -503,24 +504,23 @@ AssetImage getCategoryImage(String productName) {
     "Baby Rattles": "assets/Sunba_Youth_Baby_Beach_Tent.jpeg",
     "Stacking Rings": "assets/Suveno_Baby_Hipseat_carrier.jpg",
     "Soft Building Blocks": "assets/Swaddle_Blanket,_Adjustable_Infant_Baby_Wrap.jpeg",
-    "Musical Toys": "assets/swim_daipers.jpge",
+    "Musical Toys": "assets/swim_daipers.jpeg",
     "Shape Sorters": "assets/The_weego_twin_baby_carrier.webp",
     "Activity Cubes": "assets/toy.jpg",
     "Interactive Baby Books": "assets/Ultra_Quiet_Cordless_Electric_Hair_Trimmer.jpg",
     "Play and Learn Activity Centers": "assets/user_profile_image.jpg",
     "Baby Einstein Discovery Toys": "assets/White_cotton_sleeve_onesie.jpeg",
 
-    // Images for Baby Dishes and Utensils category
-    "Baby Plates": "assets/Wooden_Shape_Sorting_Baby_Toys.webp",
-    "Toddler Bowls": "assets/Woodland_Animals_Baby_Activity_Gym_Play_mat.jpeg",
-    //OUT OF IMAGES
-    "Silicone Placemats": "assets/silicone_placemats.jpg",
-    "Baby Fork and Spoon Set": "assets/baby_fork_spoon_set.jpg",
-    "Divided Plates for Kids": "assets/divided_plates.jpg",
-    "Baby Bottle Drying Rack": "assets/bottle_drying_rack.jpg",
-    "Toddler Utensil Set": "assets/toddler_utensil_set.jpg",
-    "Snack Catcher Cups": "assets/snack_catcher_cups.jpg",
-
+    "Baby Food Jars": "active.jpg",
+    "Baby Food Pouches": "assets/audio_baby_monitor.jpg",
+    "Baby Food Makers": "assets/baby_breathing_monitor.jpg",
+    "Baby Food Storage Containers": "assets/baby_monitor_with_temperature.jpg",
+    "Baby Food Spoons": "assets/Baby-Water-Play-Mat-Main.jpg",
+    "Baby Food Freezer Trays": "assets/digital_audio_baby_monitor.jpg",
+    "Baby Food Grinders": "assets/kisspng-ks-kids-love-circle-baby-activity-centre-child-in-kampx6-s-kids-5be26c3f83f654.5921889515415655035405.png",
+    "Baby Food Cookbooks": "assets/long range monitor.jpg",
+    "Baby Feeding Sets": "assets/night vision baby camera.jpg",
+    "Baby Food Warmers": "assets/pngwing.com.png",
 
     // Add more product names and their corresponding image paths here
   };
